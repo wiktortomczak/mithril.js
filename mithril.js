@@ -152,9 +152,9 @@
 
 	/**
 	 *
-	 * @param {Tag} The DOM node tag
-	 * @param {Object=[]} optional key-value pairs to be mapped to DOM attrs
-	 * @param {...mNode=[]} Zero or more Mithril child nodes. Can be an array,
+	 * @param {Tag} tag The DOM node tag
+	 * @param {Object} pairs optional key-value pairs to be mapped to DOM attrs
+	 * @param {...mNode} var_args Zero or more Mithril child nodes. Can be an array,
 	 *                      or splat (optional)
 	 */
 	function m(tag, pairs) {
